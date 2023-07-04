@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Main */
+
+.page-content {
+  max-width: 800px;
+  text-align: left;
+  padding: 40px 20px;
+  margin: auto;
+}
+
+.tab-header {
+  text-align: left;
+}
+
+.tab-content {
+  text-align: left;
+}
+
+/* About Us */
+
+.bio-container {
+  display: flex;
+}
+
+.bio-container .bio-image {
+  width: 240px; height: 180px;
+  background-image: url('https://res.cloudinary.com/akisiel/image/upload/v1616869449/Office/Staff/jeff_sv4v5p.jpg');
+  background-size: cover;
+  background-position: center;
+  margin-right: 40px;
+}
+
+.bio-container .bio-content {
+  width: 100%;
+}
+
+.bio-container .bio-content h2 {
+  margin: 0 0 15px 0;
+}
+
+/* Nav */
+
+.nav-wrap {
+  display: flex;
+  justify-content: space-between;
+  max-width: 800px;
+}
+
+.nav-tab {
+  display: flex;
+  align-items: center; justify-content: center;
+  color: white;
+  background-color: #224;
+  text-decoration: none;
+  width: 100%;
+}
+
+.nav-tab:hover {
+  color: #224;
+  background-color: silver;
+  transition: .2s;
+}
