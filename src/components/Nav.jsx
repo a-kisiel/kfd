@@ -48,7 +48,10 @@ export default function () {
     const links = generateLinks();
     return (
         <div class="nav-wrap">
-            {links}
+            <div class="nav-links">
+                {links}
+            </div>
+            
         </div>
     );
 };

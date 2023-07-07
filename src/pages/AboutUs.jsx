@@ -23,19 +23,6 @@ export default () => {
 					part of why people keep coming back to our office!).
 				</p> */}
 			</div>
-			
-
-			<h2>Hours</h2>
-            Tuesday: 8:15am - 5:00pm<br/>
-            Wednesday 8:15am - 3:00pm<br/>
-            Thursday 8:15am - 5:00pm<br/>
-            Friday 8:15am - 2:00pm<br/><br/>
-            Special arrangements may be made for early-morning or late afternoon in emergency cases.
-
-			<h2>Location</h2>
-			<div id="map">
-				<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11605.868678542274!2d-73.657034!3d43.3463377!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb1511dc5a1cd1c12!2sDr.%20Raymond%20J.%20Kisiel%2C%20DDS!5e0!3m2!1sen!2sus!4v1607261522466!5m2!1sen!2sus" width="600" height="450" frameborder="0" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>		
-			</div>
 		</div>
     );
 };

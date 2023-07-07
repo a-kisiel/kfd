@@ -8,7 +8,7 @@ export default () => {
                 
                 <br/><br/>
 
-                We also appreciate hearing back from our patients -- feel free to  
+                We also appreciate hearing back from our patients — feel free to  
                 <a href="https://www.facebook.com/pages/category/General-Dentist/Kisiel-Family-Dentistry-159636244067695/"> visit us on Facebook </a>
                 or leave us a review by&nbsp;
                 <a href="https://www.google.com/search?authuser=2&q=Dr.+Raymond+J.+Kisiel,+DDS&ludocid=12777026352487144466&lsig=AB86z5V2xwCqGHr_cpj4OkTTOUrQ#lrd=0x89dfcfded6d3c965:0xb1511dc5a1cd1c12,3,,,">clicking here </a> !<br/><br/>
