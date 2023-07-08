@@ -92,6 +92,11 @@ code {
   width: 100%;
 }
 
+.nav-tab.active {
+  color: #224;
+  background-color: silver;
+}
+
 .nav-tab i {
   padding-left: 10px;
 }

@@ -7,19 +7,23 @@ import './App.css';
 
 function determinePage() {
   const path = window.location.pathname.replace(/[\/-]/g, '').toLowerCase();
-  return getPage(path);
+  return {
+    page: getPage(path),
+    name: path
+  };
 }
 
 function App() {
 
   // Page 'Router'
   const page = determinePage();
+  console.log(Object.keys(page))
 
   return (
     <div className="App">
       <Slideshow />
-      <Nav />
-      { page }
+      <Nav pageName={page.name}/>
+      { page.page }
       <Footer />
     </div>
   );
