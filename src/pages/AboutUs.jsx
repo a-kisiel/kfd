@@ -1,11 +1,13 @@
+import '../css/aboutus.css';
+
 export default () => {
     return (
-        <div class="page-content">
-			<h1 class="tab-header">About Us</h1>
+        <div className="page-content">
+			<h1 className="tab-header">About Us</h1>
 
-            <div class="bio-container">
-				<div class="bio-image"></div>
-                <div class="bio-content">
+            <div className="bio-container">
+				<div className="bio-image"></div>
+                <div className="bio-content">
                     <h2>Dr. Kisiel</h2>
                     <div>
                         Dr. Raymond "Jeff" Kisiel grew up in Clinton, NY, a small town near Utica. He graduated from Clinton High School in 1982,
@@ -16,9 +18,9 @@ export default () => {
                     </div>
                 </div>
 
-				{/* <img src="../Pictures/moi.jpg" class="bio-image" />
-				<h2 class="bio-content">Tracy Arquette</h2>
-				<p class="bio-content">
+				{/* <img src="../Pictures/moi.jpg" className="bio-image" />
+				<h2 className="bio-content">Tracy Arquette</h2>
+				<p className="bio-content">
 					Tracy has been our trusted 'do-everything' assistant for 24 years. She is well-loved by staff and patients alike (and a large 
 					part of why people keep coming back to our office!).
 				</p> */}

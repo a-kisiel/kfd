@@ -1,0 +1,19 @@
+.bio-container {
+    display: flex;
+  }
+  
+  .bio-container .bio-image {
+    width: 240px; height: 180px;
+    background-image: url('https://res.cloudinary.com/akisiel/image/upload/v1616869449/Office/Staff/jeff_sv4v5p.jpg');
+    background-size: cover;
+    background-position: center;
+    margin-right: 40px;
+  }
+  
+  .bio-container .bio-content {
+    width: 100%;
+  }
+  
+  .bio-container .bio-content h2 {
+    margin: 0 0 15px 0;
+  }

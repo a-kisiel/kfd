@@ -1,3 +1,5 @@
+import '../css/nav.css';
+
 function generateLinks(current) {
     const pages = [
         {
@@ -37,13 +39,13 @@ function generateLinks(current) {
         }
     ];
 
-    console.log(current)
     const links = [];
     pages.forEach(page => {
+        const isCurrent = current.pageName === page.id || !page.id && !current.pageName;
         links.push(
-            <a href={page.href} className={'nav-tab' + (page.id && current.pageName === page.id ? ' active' : '')}>
+            <a href={page.href} className={'nav-tab' + (isCurrent ? ' active' : '')}>
                 <div>{page.title}</div>
-                <div><i class={'fas ' + page.icon}></i></div>
+                <div><i className={'fas ' + page.icon}></i></div>
             </a>
         );
     });
@@ -53,11 +55,10 @@ function generateLinks(current) {
 export default function (current) {
     const links = generateLinks(current);
     return (
-        <div class="nav-wrap">
-            <div class="nav-links">
+        <div className="nav-wrap">
+            <div className="nav-links">
                 {links}
             </div>
-            
         </div>
     );
 };

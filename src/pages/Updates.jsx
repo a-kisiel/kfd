@@ -1,9 +1,9 @@
 export default () => {
     return (
-        <div class="page-content">
-            <h1 class="tab-header">Latest Updates</h1>
+        <div className="page-content">
+            <h1 className="tab-header">Latest Updates</h1>
 
-            {/* <h2 class="update-date">7/8/2020</h2>
+            {/* <h2 className="update-date">7/8/2020</h2>
 			<p>
 				Since opening on June 23rd things have been going very well.  Patients have been impressed with our Covid-19 
 				response, and have overwhelmingly said they felt safe having dentistry and hygiene performed.  We are doing 
@@ -16,7 +16,7 @@ export default () => {
 				 federal regulatory agencies change.  Thanks for all your support and cooperation in helping us keep everyone safe during your visit.<br/><br/>
 			</p> */}
 
-			<h3 class="update-date">6/10/2020</h3>
+			<h3 className="update-date">6/10/2020</h3>
 			<div>
 				Dear Patients,<br/><br/>
 				Our community has been through a lot over the last few months, and all of us are looking forward to resuming 

@@ -1,7 +1,9 @@
+import '../css/forms.css';
+
 export default () => {
     return (
-        <div class="page-content">
-            <h1 class="tab-header">Online Forms</h1>
+        <div className="page-content">
+            <h1 className="tab-header">Online Forms</h1>
 			<div> 
 				In an effort to save everyone time at the office, we've made some forms available online. Simply print what you need and fill it out
 				whenever.
@@ -12,12 +14,12 @@ export default () => {
             </div>
 
             <h2>Available Forms</h2>
-            <div class="forms-list">
-                <a href="../Forms/New Patient Packet.pdf" target="_blank" title="New Patient Form" class="form-link" download> New Patient Form </a>
-                <a href="../Forms/Health History.pdf" target="_blank" title="Health History" class="form-link" download> Health History </a>
-                <a href="../Forms/HIPAA.pdf" target="_blank" title="HIPAA" class="form-link" download> HIPAA </a>
-                <a href="../Forms/Medication List.pdf" target="_blank" title="Medication List" class="form-link" download> Medication List </a>
-                <a href="../Forms/Patient Screening.pdf" target="_blank" title="Patient Screening" class="form-link" download> Patient Screening </a>
+            <div className="forms-list">
+                <a href="../Forms/New Patient Packet.pdf" target="_blank" title="New Patient Form" className="form-link" download> New Patient Form </a>
+                <a href="../Forms/Health History.pdf" target="_blank" title="Health History" className="form-link" download> Health History </a>
+                <a href="../Forms/HIPAA.pdf" target="_blank" title="HIPAA" className="form-link" download> HIPAA </a>
+                <a href="../Forms/Medication List.pdf" target="_blank" title="Medication List" className="form-link" download> Medication List </a>
+                <a href="../Forms/Patient Screening.pdf" target="_blank" title="Patient Screening" className="form-link" download> Patient Screening </a>
             </div>	
 
             <h2>Troubleshooting</h2>
@@ -32,14 +34,14 @@ export default () => {
             </div>
 
             <h2>FAQs</h2>
-            <h3 class="question">
+            <h3 className="question">
                 I don't see the form I need — what should I do?
             </h3>
             <div>
                 If you require a specific form that isn't listed below, either send us an email at <a href="mailto:kisieldent@gmail.com">kisieldent@gmail.com</a> or stop by the 
                 office and we'll give you a paper copy.
             </div>
-            <h3 class="question">
+            <h3 className="question">
                 There was a problem with my download/I'm having some other technical difficulties.
             </h3>
             <div>

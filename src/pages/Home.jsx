@@ -1,12 +1,12 @@
 export default () => {
     return (
-        <div class="page-content">
-			<div class="tab-header"></div>
-			<h2 class="covid">Note Regarding the Recent COVID-19 Epidemic:</h2>
-			<div class="covid">
+        <div className="page-content">
+			<div className="tab-header"></div>
+			<h2 className="covid">Note Regarding the Recent COVID-19 Epidemic:</h2>
+			<div className="covid">
 				As our patients know, we have continued to keep up to date with current NYS Health Department and CDC guidelines to provide a safe dental environment. We appreciate the overwhelming cooperation we've received from patients during this epidemic. We understand the questions that we have to ask and precautions have tested many people's patience, but they're important to follow in order to keep us all safe.
 				<br/><br/>
-				<div class="covid">Thanks for all your support and cooperation in helping us keep everyone safe during your visit.</div><br/><br/>
+				<div className="covid">Thanks for all your support and cooperation in helping us keep everyone safe during your visit.</div><br/><br/>
 			</div>
 
             <div>
