@@ -1,35 +1,95 @@
 .nav-wrap {
+  background-color: #224;
+  width: 100vw; height: 50px;
+  font-size: 15px;
+}
+  
+.nav-links {
+  height: 100%;
+  display: none;
+  justify-content: space-between;
+  max-width: 900px;
+  margin: auto;
+}
+  
+.nav-tab {
+  display: flex;
+  align-items: center; justify-content: center;
+  color: white;
+  text-decoration: none;
+  width: 100%;
+}
+  
+.nav-tab.active {
+  color: #224;
+  background-color: silver;
+}
+  
+.nav-tab i {
+  padding-left: 10px;
+}
+  
+.nav-tab:hover {
+  color: #224;
+  background-color: silver;
+  transition: .2s;
+}
+
+.mobile-nav {
+  display: flex;
+  flex-direction: column;
+  width: 100%; height: auto;
+  background-color: #224;
+}
+
+.mobile-nav .nav-tab {
+  flex-direction: row-reverse;
+  justify-content: left;
+  padding-left: 10px;
+}
+
+.mobile-nav .nav-tab i {
+  padding: 0 10px 0 0;
+}
+
+.menu-closed {
+  height: 0 !important;
+}
+
+.mobile-links {
+  height: 1000px;
+  background-color: #224;
+  overflow: hidden;
+  transition: .5s;
+  z-index: 100;
+}
+
+.bottom-fill {
+  width: 100%; height: 1000px;
+}
+
+.hamburger {
+  font-size: 25px;
+  color: white;
+  margin: 10px;
+}
+
+.mobile-links a {
+  width: 100%; height: 50px;
+}
+
+@media (min-width: 1000px) {
+
+  .nav-wrap {
     background-color: #224;
     width: 100vw; height: 50px;
   }
-  
+
+  .mobile-nav {
+    display: none;
+  }
+
   .nav-links {
-    height: 100%;
     display: flex;
-    justify-content: space-between;
-    max-width: 900px;
-    margin: auto;
   }
-  
-  .nav-tab {
-    display: flex;
-    align-items: center; justify-content: center;
-    color: white;
-    text-decoration: none;
-    width: 100%;
-  }
-  
-  .nav-tab.active {
-    color: #224;
-    background-color: silver;
-  }
-  
-  .nav-tab i {
-    padding-left: 10px;
-  }
-  
-  .nav-tab:hover {
-    color: #224;
-    background-color: silver;
-    transition: .2s;
-  }
+}

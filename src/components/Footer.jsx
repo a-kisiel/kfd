@@ -16,7 +16,7 @@ export default function () {
                 <div className="map">
                     <h2>Location</h2>
                     <div>
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11605.868678542274!2d-73.657034!3d43.3463377!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb1511dc5a1cd1c12!2sDr.%20Raymond%20J.%20Kisiel%2C%20DDS!5e0!3m2!1sen!2sus!4v1607261522466!5m2!1sen!2sus" width="600" height="450" frameBorder="0" allowFullScreen="" aria-hidden="false" tabIndex="0"></iframe>		
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11605.868678542274!2d-73.657034!3d43.3463377!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb1511dc5a1cd1c12!2sDr.%20Raymond%20J.%20Kisiel%2C%20DDS!5e0!3m2!1sen!2sus!4v1607261522466!5m2!1sen!2sus" width="550" height="400" frameBorder="0" allowFullScreen="" aria-hidden="false" tabIndex="0"></iframe>		
                     </div>
                 </div>
             </div>

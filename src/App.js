@@ -11,6 +11,14 @@ function determinePage() {
   };
 }
 
+function supportsWebp() {
+  var elem = document.createElement('canvas')
+  if (!!(elem.getContext && elem.getContext('2d')))
+    return elem.toDataURL('image/webp').indexOf('data:image/webp') == 0;
+
+  return false;
+};
+
 function App() {
 
   // Page 'Router'
@@ -18,7 +26,7 @@ function App() {
 
   return (
     <div className="App">
-      <Slideshow />
+      <Slideshow webpSupport={supportsWebp}/>
       <Nav pageName={page.name}/>
       { page.page }
       <Footer />

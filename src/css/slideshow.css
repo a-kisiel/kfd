@@ -4,4 +4,9 @@
 
     background-size: cover;
     background-position: center;
+    -webkit-transition: background 1.5s linear;
+-moz-transition: background 1.5s linear;
+-o-transition: background 1.5s linear;
+-ms-transition: background 1.5s linear;
+transition: background 1.5s linear;
 }

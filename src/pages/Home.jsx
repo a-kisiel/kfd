@@ -12,7 +12,7 @@ export default () => {
             <div>
                 Dr. Kisiel and his staff are adept at performing all standard dental procedures, including crowns, bridges, partial and full dentures, implants, 
                 implant-retained crowns and dentures, root canals, extractions, tooth-colored restorations, and more. We won't try to make you pay for anything you don't 
-                need, nor will we perform anything we aren't comfortable with &#8211 if we don't think we can do something we have no problems referring you to a 
+                need, nor will we perform anything we aren't comfortable with &#8211; if we don't think we can do something we have no problems referring you to a 
                 trusted nearby specialist who can.
             </div>
 		</div>
