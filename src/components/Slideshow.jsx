@@ -2,15 +2,14 @@ import HeroSlider, { Slide } from "hero-slider";
 import '../css/slideshow.css';
 
 export default function (props) {
-    const useWebp = props.webp;
+    const useWebp = props.webpSupport;
 
-    const folder = useWebp ? 'webps' : 'jpgs';
     const suffix = useWebp ? 'webp' : 'jpg';
     const slides = [];
 
     for (let i=1; i<7; i++)
         slides.push(
-            <Slide background={{ backgroundImageSrc: `/images/${folder}/${i}.${suffix}` }} />
+            <Slide background={{ backgroundImageSrc: `https://kfd-imgs.s3.us-east-2.amazonaws.com/${suffix}/${i}.${suffix}` }} />
         );
 
     return <div>
