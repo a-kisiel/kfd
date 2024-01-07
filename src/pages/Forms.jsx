@@ -5,12 +5,17 @@ export default () => {
         <div className="page-content">
             <h1 className="tab-header">Online Forms</h1>
 			<div> 
-				In an effort to save everyone time at the office, we've made some forms available online. Simply print what you need and fill it out
-				whenever.
+            We ask that all patients plan to arrive at the office around 15 minutes before their scheduled appointment to allow 
+            time for filling out forms and handling administrative processes. If you already know what forms you need to fill 
+            out, you can download them on this page, print them out, and bring them already filled-in to the office. 
+            If you have questions or are unsure of what forms you need, stop by the office and our staff will be happy to 
+            assist you.
 			</div>
-
+            <br/><br/>
             <div>
-                Currently, this site only provides the PDF versions of forms, and as a result will never ask for any personal information; be careful handing such information out online.<br/><br/>New patients should download, print, and fill out the <strong>New Patient Questionnaire</strong>, then bring it in to the office so we can enter their information in our books.
+                Note: this site only provides the PDF versions of forms for you to print out at home and fill out by hand.
+                As a result, it will never ask for any personal information — always be careful handing such information out
+                online.
             </div>
 
             <div>
@@ -29,16 +34,16 @@ export default () => {
                 <div> 
                     If at any point in the process you find that you're having some difficulty, feel free to <a href="tel:15187922364">give us a call</a>, stop in at the office, or send us an email at <a href="mailto:kisieldent@gmail.com">kisieldent@gmail.com</a>.
                 </div>
-
+                <br/><br/>
                 <div>
                     The download process for these forms may vary slightly depending on your internet browser, but the differences are minor (and the process itself is fairly easy):
                     <br/><br/>
-                    Upon clicking the respective form link below, a new tab containing the form PDF should open. Look for the printer icon in the PDF reader window, and it should lead you through the process of printing. If you'd prefer to save the document, use the 'download' button instead.
+                    Upon clicking the respective form link above, a new tab containing the form PDF should open. Look for the printer icon in the PDF reader window, and it should lead you through the process of printing. If you'd prefer to save the document, use the 'download' button instead.
                 </div>
             </div>
 
             <div>
-                <h2>FAQs</h2>
+                <h2>Form FAQs</h2>
                 <h3 className="question">
                     I don't see the form I need — what should I do?
                 </h3>
