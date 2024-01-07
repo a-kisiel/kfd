@@ -1,6 +1,7 @@
 {
   "short_name": "KFD",
   "name": "Kisiel Family Dentistry site (React)",
+  "author": "a-kisiel",
   "icons": [
     {
       "src": "favicon.ico",

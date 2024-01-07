@@ -39,12 +39,13 @@ const pages = [
     }
 ];
 
-function generateLinks(current) {
+function generateLinks() {
+    const current = window.location.pathname;
     const links = [];
     pages.forEach(page => {
-        const isCurrent = current.pageName === page.id || !page.id && !current.pageName;
+        const active = page.href === current;
         links.push(
-            <a href={page.href} className={'nav-tab' + (isCurrent ? ' active' : '')}>
+            <a href={page.href} className={'nav-tab' + (active ? ' active' : '')}>
                 <div>{page.title}</div>
                 <div><i className={'fas ' + page.icon}></i></div>
             </a>
