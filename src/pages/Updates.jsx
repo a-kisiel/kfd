@@ -1,80 +1,64 @@
+const updates = [
+	<div>
+		<h3 className="update-date">11/5/2025</h3>
+		<div>
+			Dear Patients,
+			<br/><br/>
+			We are trying to make payment for services as easy as possible. With the ever-changing ways insurance companies 
+			are reimbursing doctors and patients, we felt we would try to simplify the process. We will now be recommending 
+			patients pay for services at the time of treatment as follows:
+
+			<ul>
+				<li>
+					Patients without insurance will pay at time of services</li>
+				<li>
+					Patients whose insurance sends payment to them will be expected to pay for services in full that day. When 
+					the patient receives the insurance check they can then cash the check and keep the money.
+				</li>
+				<li>
+					If patients need a payment plan to pay for their services, this can be arranged with either Lisa or Tracy.
+				</li>
+				<li>
+					Patients with outstanding balances will be expected to pay their balance at time of service unless other arrangements 
+					were made.
+				</li>
+			</ul>
+			We spend a great deal of time on the phones with these insurance companies and it is complicated and time consuming. This will help.
+			<br/><br/>
+			Thanks for your cooperation,
+			<br/><br/>
+			R. Jeffrey Kisiel and Staff
+		</div>
+	</div>,
+	<div>
+		<h3 className="update-date">1/7/2024</h3>
+		<div>
+		Dear Patients,
+		<br/><br/>
+		As cold and flu season continues into the new year we continue to use the lessons we've learned from our 
+		COVID response to ensure everyone's safety.
+		<br/><br/>
+		If you're feeling under the weather on the day of your appointment, please notify the office so we can reschedule 
+		you to a later date. Hand sanitizer and all hand-washing stations are still readily available; we encourage you to 
+		use both frequently.
+		<br/><br/>Additionally, we ask that all patients plan to arrive at the office around 15 minutes before their 
+		scheduled appointment to allow time for filling out forms and handling administrative processes. If you already know 
+		what forms you need to fill out, you can download them on <a href="/forms">this page</a>, print them out, and bring 
+		them already filled-in to the office. If you have questions or are unsure of what forms you need, our staff will be  
+		happy to assist you.
+		<br/><br/>
+		Sincerely,
+		<br/><br/>
+		R. Jeffrey Kisiel and Staff
+		</div>
+	</div>
+];
+
 export default () => {
     return (
         <div className="page-content">
             <h1 className="tab-header">Latest Updates</h1>
-
-            {/* <h2 className="update-date">7/8/2020</h2>
-			<p>
-				Since opening on June 23rd things have been going very well.  Patients have been impressed with our Covid-19 
-				response, and have overwhelmingly said they felt safe having dentistry and hygiene performed.  We are doing 
-				our best, and as an office collectively we feel safe as well!  We have added a $10 onetime fee to help defray the cost 
-				of personal protective equipment and laundering needs we have incurred as a result of the epidemic.
-				If you called during the quarantine period and have not been called for follow-up emergency 
-				treatment, please call our office;  we don't want to leave anyone untreated.  Patients who have been seen must 
-				 call our office 48 hours after their visit to let us know whether they have developed any COVID symptoms; this is simply a precautionary 
-				 measure that all medical offices are being asked to take. This site will be updated as new information from the state and 
-				 federal regulatory agencies change.  Thanks for all your support and cooperation in helping us keep everyone safe during your visit.<br/><br/>
-			</p> */}
-
-			{/* <h3 className="update-date">6/10/2020</h3>
-			<div>
-				Dear Patients,<br/><br/>
-				Our community has been through a lot over the last few months, and all of us are looking forward to resuming 
-				our normal habits and routines.  While many things have changed, one thing has remained the same: our commitment 
-				to your safety.
-                <br/><br/>
-                Infection control has always been a top priority for our practice, and you'll soon see some changes meant to enhance our already stringent measures in that area. We'd like to tell you about some of the procedures we follow in our practice to keep patients and staff safe.
-                <br/><br/>
-                Our office follows infection control recommendations made by the American Dental Association (ADA), the U.S. Centers for Disease Control and Prevention (CDC) and OSHA. We follow the activities of these agencies so that we are up-to-date on any new rulings or guidance that may be issued. We do this to make sure that our infection control procedures are current and adhere to each agency’s recommendations.
-                <br/><br/>
-				In the interest of protecting our patients and staff, we ask that you note the following changes in procedure:
-                <br/><br/>
-			</div>
-			<ul>
-				<li><div>
-					Our office will communicate with you before your appointment to ask some screening questions. Upon arriving at the 
-					office, you'll be asked these questions again and your temperature will be taken.
-				</div></li>
-				<li><div>
-					We will have hand sanitizer as you enter the building and throughout the reception area. Hand washing can be done in the 
-					bathroom and treatment rooms as well.
-				</div></li>
-				<li><div>
-					We will not have magazines, children’s toys and other such materials available in the waiting area 
-					since these items are difficult to disinfect.
-				</div></li>
-			</ul>
-
-            <div>
-				Appointments will be managed to allow for social distancing between patients. That might mean that you’re offered fewer options for scheduling your appointment. We will do our best to space out our scheduled appointments to reduce both the number of patients in the waiting room and each patient's waiting time.
-                <br/><br/>
-				We are happy to answer any questions you may have about the steps we have taken to keep you, and every patient, safe and comfortable in our practice.
-                <br/><br/>
-				Sincerely,
-                <br/><br/>
-				R. Jeffrey Kisiel and Staff
-			</div> */}
-
-			<h3 className="update-date">1/7/2024</h3>
-			<div>
-			Dear Patients,
-			<br/><br/>
-			As cold and flu season continues into the new year we continue to use the lessons we've learned from our 
-			COVID response to ensure everyone's safety.
-			<br/><br/>
-			If you're feeling under the weather on the day of your appointment, please notify the office so we can reschedule 
-			you to a later date. Hand sanitizer and all hand-washing stations are still readily available; we encourage you to 
-			use both frequently.
-			<br/><br/>Additionally, we ask that all patients plan to arrive at the office around 15 minutes before their 
-			scheduled appointment to allow time for filling out forms and handling administrative processes. If you already know 
-			what forms you need to fill out, you can download them on <a href="/forms">this page</a>, print them out, and bring 
-			them already filled-in to the office. If you have questions or are unsure of what forms you need, our staff will be  
-			happy to assist you.
-			<br/><br/>
-			Sincerely,
-			<br/><br/>
-			R. Jeffrey Kisiel and Staff
-			</div>
+			{updates}
 		</div>
     );
 };
